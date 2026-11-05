@@ -2,6 +2,7 @@ import { Welcome } from "./Welcome";
 import "./App.css";
 import { Hello } from "./Hello";
 import { Card } from "./Card";
+import { UserProfile } from "./UserProfile";
 function Button() {
   return <button>Click MEE</button>;
 }
@@ -14,6 +15,7 @@ function App() {
       <Button />
       <Hello />
       <Card />
+      <UserProfile />
     </div>
   );
 }
