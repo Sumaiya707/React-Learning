@@ -38,6 +38,18 @@ function App() {
       <Greeting name="bruce" />
       <Greeting message="NOOOO" />
       <Greeting />
+
+      <Card>
+        <h2>Student Information</h2>
+        <p>Name: Alex</p>
+        <p>Age: 22</p>
+      </Card>
+
+      <Card>
+        <h2>Product Information</h2>
+        <p>Product: Laptop</p>
+        <p>Price: $500</p>
+      </Card>
     </div>
   );
 }
