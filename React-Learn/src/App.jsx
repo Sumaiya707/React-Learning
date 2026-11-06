@@ -7,6 +7,7 @@ import { Destructuring } from "./Destructuring";
 import { Greeting } from "./Greeting";
 import { UserCard } from "./UserCard";
 import { UserDetails } from "./UserDetails";
+import { ProductList } from "./ProductList";
 
 function Button() {
   return <button>Click MEE</button>;
@@ -21,6 +22,7 @@ function App() {
       <Button />
       <Hello />
       <Card />
+      <ProductList />
       <UserProfile
         name="Sumaiya"
         age={22}
