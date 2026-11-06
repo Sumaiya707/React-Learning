@@ -1,4 +1,4 @@
-export function Welcome() {
+export function Welcome(props) {
   //child COMPONENT
-  return <h2>Welcome to react !!</h2>;
+  return <h2>Welcome {props.name} to react !!</h2>;
 }

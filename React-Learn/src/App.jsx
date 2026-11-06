@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <h1>WELCOME TO LEARN !!</h1>
-      <Welcome />
+      <Welcome name="ALICEE" />
       <Button />
       <Hello />
       <Card />
