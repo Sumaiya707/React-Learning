@@ -1,4 +1,5 @@
 export const Greeting = ({ name = "guest", message = "hello" }) => {
+  //default props
   return (
     <div>
       <h2>

@@ -5,6 +5,7 @@ import { Card } from "./Card";
 import { UserProfile } from "./UserProfile";
 import { Destructuring } from "./Destructuring";
 import { Greeting } from "./Greeting";
+import { UserCard } from "./UserCard";
 
 function Button() {
   return <button>Click MEE</button>;
@@ -24,6 +25,12 @@ function App() {
         age={22}
         isStudent={true}
         skills={["HTML", "CSS", "JavaScript"]}
+      />
+      <UserCard
+        name="JohnDEE"
+        age={333}
+        city="DHAKA"
+        email="bdsuma22@gmail.com"
       />
       <Destructuring name="RIMURU" age={200} isStudent={false} skills={[]} />
 
