@@ -4,6 +4,7 @@ import { Hello } from "./Hello";
 import { Card } from "./Card";
 import { UserProfile } from "./UserProfile";
 import { Destructuring } from "./Destructuring";
+import { Greeting } from "./Greeting";
 
 function Button() {
   return <button>Click MEE</button>;
@@ -25,6 +26,11 @@ function App() {
         skills={["HTML", "CSS", "JavaScript"]}
       />
       <Destructuring name="RIMURU" age={200} isStudent={false} skills={[]} />
+
+      <Greeting name="bruce" message="NOOOO" />
+      <Greeting name="bruce" />
+      <Greeting message="NOOOO" />
+      <Greeting />
     </div>
   );
 }
