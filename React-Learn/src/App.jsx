@@ -17,7 +17,12 @@ function App() {
       <Button />
       <Hello />
       <Card />
-      <UserProfile />
+      <UserProfile
+        name="Sumaiya"
+        age={22}
+        isStudent={true}
+        skills={["HTML", "CSS", "JavaScript"]}
+      />
     </div>
   );
 }
