@@ -1,4 +1,9 @@
 export function Welcome(props) {
   //child COMPONENT
-  return <h2>Welcome {props.name} to react !!</h2>;
+  return (
+    <div>
+      <h2>Welcome {props.name} to react !!</h2>
+      <p>Welcome {props.age}</p>
+    </div>
+  );
 }

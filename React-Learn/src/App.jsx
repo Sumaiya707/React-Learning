@@ -12,7 +12,8 @@ function App() {
   return (
     <div>
       <h1>WELCOME TO LEARN !!</h1>
-      <Welcome name="ALICEE" />
+      <Welcome name="ALICEE" age={55} />
+      <Welcome name="BOB" age={30} />
       <Button />
       <Hello />
       <Card />
