@@ -8,6 +8,8 @@ import { Greeting } from "./Greeting";
 import { UserCard } from "./UserCard";
 import { UserDetails } from "./UserDetails";
 import { ProductList } from "./ProductList";
+import { NameList } from "./NameList";
+import { Alert } from "./Alert";
 
 function Button() {
   return <button>Click MEE</button>;
@@ -21,8 +23,10 @@ function App() {
       <Welcome name="BOB" age={30} />
       <Button />
       <Hello />
+      <Alert> YOUR CGHANGING HAS SAVED !!</Alert>
       <Card />
       <ProductList />
+      <NameList />
       <UserProfile
         name="Sumaiya"
         age={22}
