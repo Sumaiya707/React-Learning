@@ -6,6 +6,7 @@ import { UserProfile } from "./UserProfile";
 import { Destructuring } from "./Destructuring";
 import { Greeting } from "./Greeting";
 import { UserCard } from "./UserCard";
+import { UserDetails } from "./UserDetails";
 
 function Button() {
   return <button>Click MEE</button>;
@@ -50,6 +51,7 @@ function App() {
         <p>Product: Laptop</p>
         <p>Price: $500</p>
       </Card>
+      <UserDetails name="banana" isOnline={false} />
     </div>
   );
 }
