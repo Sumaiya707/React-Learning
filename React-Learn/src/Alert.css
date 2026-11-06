@@ -1,0 +1,13 @@
+.alert {
+  padding: 19px;
+  border-radius: 9px;
+  margin-bottom: 17px;
+  color: black;
+}
+
+.success {
+  background-color: bisque;
+}
+.error {
+  background-color: brown;
+}
