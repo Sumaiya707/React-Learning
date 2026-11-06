@@ -23,7 +23,8 @@ function App() {
       <Welcome name="BOB" age={30} />
       <Button />
       <Hello />
-      <Alert> YOUR CGHANGING HAS SAVED !!</Alert>
+      <Alert> YOUR CHANGING HAS SAVED !!</Alert>
+      <Alert type="error"> YOUR CHANGING HAS NOT YET SAVED !!</Alert>
       <Card />
       <ProductList />
       <NameList />
