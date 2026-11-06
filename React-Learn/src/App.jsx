@@ -3,6 +3,7 @@ import "./App.css";
 import { Hello } from "./Hello";
 import { Card } from "./Card";
 import { UserProfile } from "./UserProfile";
+import { Destructuring } from "./Destructuring";
 
 function Button() {
   return <button>Click MEE</button>;
@@ -23,6 +24,7 @@ function App() {
         isStudent={true}
         skills={["HTML", "CSS", "JavaScript"]}
       />
+      <Destructuring name="RIMURU" age={200} isStudent={false} skills={[]} />
     </div>
   );
 }
