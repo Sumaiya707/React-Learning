@@ -16,7 +16,7 @@ function Button() {
 }
 import { Contact } from "./Contact";
 import { Newsletter } from "./Newsletter";
-
+import { Counter } from "./Counter";
 function App() {
   return (
     <div>
@@ -31,6 +31,7 @@ function App() {
       <Card />
       <ProductList />
       <NameList />
+      <Counter>CODE EVALUATION </Counter>
 
       <Newsletter />
       <Contact />
