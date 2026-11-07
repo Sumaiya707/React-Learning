@@ -14,6 +14,8 @@ import { CustomButton } from "./CustomButton";
 function Button() {
   return <button>Click MEE</button>;
 }
+import { Contact } from "./Contact";
+import { Newsletter } from "./Newsletter";
 
 function App() {
   return (
@@ -29,6 +31,9 @@ function App() {
       <Card />
       <ProductList />
       <NameList />
+
+      <Newsletter />
+      <Contact />
       <UserProfile
         name="Sumaiya"
         age={22}
