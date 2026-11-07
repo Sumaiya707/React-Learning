@@ -10,7 +10,7 @@ import { UserDetails } from "./UserDetails";
 import { ProductList } from "./ProductList";
 import { NameList } from "./NameList";
 import { Alert } from "./Alert";
-
+import { CustomeButton } from "./CustomButton";
 function Button() {
   return <button>Click MEE</button>;
 }
@@ -18,6 +18,7 @@ function Button() {
 function App() {
   return (
     <div>
+      <CustomeButton />
       <h1>WELCOME TO LEARN !!</h1>
       <Welcome name="ALICEE" age={55} />
       <Welcome name="BOB" age={30} />
